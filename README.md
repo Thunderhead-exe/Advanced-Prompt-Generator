@@ -1,6 +1,6 @@
 # Advanced Prompt Generator
 
-![Banner Image Placeholder](media/banner.jpg)
+![Banner Image Placeholder](media/Banner.jpg)
 
 ## Overview
 This project is an **LLM-based Advanced Prompt Generator** designed to automate the process of prompt engineering by enhancing given input prompts using large language models (LLMs). Following established prompt engineering principles, the tool can generate advanced prompts with a simple click, leveraging LLM agents for optimized prompt generation.
