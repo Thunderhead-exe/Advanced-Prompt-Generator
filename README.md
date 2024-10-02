@@ -7,6 +7,8 @@ This project is an **LLM-based Advanced Prompt Generator** designed to automate 
 
 The tool is deployed using **FastAPI** and **Docker** with an interactive testing interface created using **Gradio** and hosted on **Hugging Face Spaces**.
 
+***Note:*** I will add a link to a Medium article soon to dive deep into the idea and details behind this solution. Also, a newer, more optimized, version will be shared soon!
+
 ## Key Features
 - **LLM-Based Prompt Enhancement:** Utilizes `gpt-4o` /or `gpt-4o-mini` models for generating advanced prompts.
 - **Automated Prompt Engineering:** Simplifies prompt engineering processes, requiring minimal user input.
