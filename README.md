@@ -6,6 +6,7 @@
 This project is an **LLM-based Advanced Prompt Generator** designed to automate the process of prompt engineering by enhancing given input prompts using large language models (LLMs). Following established prompt engineering principles, the tool can generate advanced prompts with a simple click, leveraging LLM agents for optimized prompt generation.
 
 You can demo this solution on [**Hugging Face Spaces**](https://huggingface.co/spaces/Adam-Ben-Khalifa/Advanced_Prompt_Generator).
+
 Also you can check this [Medium article](https://medium.com/@AdamBenKhalifa/an-ai-agent-to-replace-prompt-engineers-ed2864e23549) about this solution for more details!
 
 ## Key Features
