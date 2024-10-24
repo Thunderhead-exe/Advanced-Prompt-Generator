@@ -80,6 +80,7 @@ Keep the response medium in length (approximately 200-300 words) to ensure thoro
   Integration: Use for motivation and strategies to tackle the writing process
 
 ##THOUGHT PROCESS##
+
 *Subtask 1*:
 - **Description**: Introduce the book writing journey and its significance.
 - **Reasoning**: Providing an introduction sets the context for aspiring authors, helping them understand the importance and challenges of writing a book.
@@ -137,6 +138,7 @@ The Fibonacci spiral should start with the first few Fibonacci numbers and visua
   Integration: Reference for general Python programming practices and functions used in the script
 
 ##THOUGHT PROCESS##
+
 *Subtask 1*:
 - **Description**: Create a function to compute Fibonacci numbers up to a specified term.
 - **Reasoning**: This function is essential for generating the sequence of Fibonacci numbers, which will be used to determine the points for the spiral.
