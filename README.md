@@ -46,10 +46,12 @@ Also you can check this [Medium article](https://medium.com/@AdamBenKhalifa/an-a
 
 ## Results Examples
 ## ***Example 1***
-### Input Prompt:
+```
+>>> Input Prompt:
 how to write a book?
-
-### Enhanced Prompt:
+```
+```
+>>> Enhanced Prompt:
 As a knowledgeable writing coach, please provide a comprehensive guide on how to write a book.
 
 Requirements:
@@ -105,12 +107,14 @@ Keep the response medium in length (approximately 200-300 words) to ensure thoro
 - **Description**: Suggest resources for further learning about writing techniques and publishing options.
 - **Reasoning**: Providing additional resources empowers authors to deepen their knowledge and explore various publishing avenues.
 - **Success criteria**: List reputable books, websites, and courses that cover writing skills and the publishing process, ensuring they are accessible and relevant to aspiring authors.
-
+```
 ## ***Example 2***
-### Input Prompt:
+```
+>>> Input Prompt:
 write a python script to compute and plot the fibonacci spiral
-
-### Enhanced Prompt:
+```
+```
+>>> Enhanced Prompt:
 As a programming expert, please create a Python script that computes and plots the Fibonacci spiral. 
 
 Requirements:
@@ -163,7 +167,7 @@ The Fibonacci spiral should start with the first few Fibonacci numbers and visua
 - **Description**: Provide example usage demonstrating the script in action, including a plot display.
 - **Reasoning**: Example usage helps users understand how to implement and run the script, showcasing its functionality and output.
 - **Success criteria**: The example should include a clear demonstration of how to call the functions, specify the number of terms, and display the resulting plot, with expected output shown.
-
+```
 ---
 
 ## Solution Diagrams
