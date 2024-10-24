@@ -35,7 +35,7 @@ async def advancedPromptPipeline(payload: InputPrompt):
     enhancer = PromptEnhancer(model)
     
     start_time = time.time()
-    advanced_prompt = await enhancer.enhance_prompt(input_prompt, perform_eval=False)
+    advanced_prompt = await enhancer.enhance_prompt(input_prompt)
     elapsed_time = time.time() - start_time
     
     return {
@@ -44,8 +44,8 @@ async def advancedPromptPipeline(payload: InputPrompt):
         "prompt_tokens": enhancer.prompt_tokens,
         "completion_tokens": enhancer.completion_tokens,
         "approximate_cost": (enhancer.prompt_tokens*i_cost)+(enhancer.completion_tokens*o_cost),
-        "inout_prompt": input_prompt,
-        "advanced_prompt": advanced_prompt["advanced_prompt"],
+        "input_prompt": input_prompt,
+        "advanced_prompt": advanced_prompt,
     }
     
 

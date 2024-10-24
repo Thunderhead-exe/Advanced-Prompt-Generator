@@ -25,18 +25,22 @@ The tool is deployed using **FastAPI** and **Docker** with an interactive testin
 ## Repo Structure
 
 ```
-├── .gitignore            # Files and directories to be ignored by Git
-├── LICENSE               # License information for the project
-├── README.md             # Project documentation (this file)
-├── app.py                # Gradio application to serve the tool
-├── pipeline.py           # Core logic for prompt enhancement
-├── requirements.txt      # Python dependencies for the project
-├── FastAPI and Docker    # Version deployed with FastAPI & Docker
+├── .gitignore                     # Files and directories to be ignored by Git
+├── LICENSE                        # License information for the project
+├── README.md                      # Project documentation (this file)
+├── Advancd_Prompt_Generator.py    # Script to test the tool locally 
+├── pipeline.py                    # Core logic for prompt enhancement
+├── requirements.txt               # Python dependencies for the project
+├── Docker-FastAPI-app             # Version deployed with FastAPI & Docker
 │   ├── app       
-│   │   ├── main.py       # FastAPI application to serve the tool
-│   │   ├── pipeline.py   # Core logic for prompt enhancement
-│   ├── Dockerfile        # For building the Docker image
-│   ├── requirements.txt  # Python dependencies for FastAPI
+│   │   ├── main.py       
+│   │   ├── pipeline.py   
+│   ├── Dockerfile        
+│   ├── requirements.txt  
+├── Gradio-app                     # Version deployed with Gradio 
+│   ├── app.py            
+│   ├── pipeline.py       
+│   ├── requirements.txt  
 ```
 
 ---
