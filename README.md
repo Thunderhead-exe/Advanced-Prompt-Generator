@@ -197,6 +197,17 @@ The Fibonacci spiral should start with the first few Fibonacci numbers and visua
    ```
 ---
 
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=thunderhead-exe/advanced-prompt-generator&type=Date&theme=dark" />
+  <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=thunderhead-exe/advanced-prompt-generator&type=Date" />
+</picture>
+
+---
+
+<div align="left">
+
 ## License
 This project is licensed under the terms of the [apache-2.0 License](LICENSE).
 
