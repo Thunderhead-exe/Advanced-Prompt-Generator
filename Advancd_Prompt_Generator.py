@@ -449,6 +449,15 @@ async def main():
     
     input_prompt = input("|- Enter your Prompt ---------------------------- \n|   > ")
     print("\n")
+
+    # Add option to choose output format
+    print("|- Choose output format -------------------------")
+    print("|   1) Console")
+    print("|   2) .txt file")
+    print("|")
+    
+    output_choice = input("|   Select [1/2]: \n|   > ")
+    print("|")
     
     enhancer = PromptEnhancer(model)
     
@@ -469,13 +478,25 @@ async def main():
     print(f"- Approximate Cost = ${(enhancer.prompt_tokens*i_cost)+(enhancer.completion_tokens*o_cost)}\n")
     print("-"*52, "\n")
     
-    print(">>> BASIC PROMPT: \n")
-    print(input_prompt, "\n")
-    print("-"*52, "\n")
-    
-    print(">>> ADVANCED PROMPT: \n")
-    print(advanced_prompt, "\n")
-    print("-"*52, "\n")
+    if output_choice == "1":
+        # Print output to console
+        print(">>> BASIC PROMPT: \n")
+        print(input_prompt, "\n")
+        print("-"*52, "\n")
+        print(">>> ADVANCED PROMPT: \n")
+        print(advanced_prompt, "\n")
+        print("-"*52, "\n")
+    elif output_choice == "2":
+        # Write output to a .txt file
+        with open("output.txt", "w") as f:
+            f.write("Basic Prompt:\n")
+            f.write(input_prompt + "\n")
+            f.write("-"*52 + "\n")
+            f.write("Advanced Prompt:\n")
+            f.write(advanced_prompt)
+        print("Output saved to output.txt")
+    else:
+        raise Exception("Please input a valid choice")
 
     
 if __name__ == "__main__":
